@@ -1,143 +1,150 @@
 <!DOCTYPE html>
 <html>
-    
-    <head>
-        <title>Demo Html</title>
-        <style>
-            body { background-color: rgb(131, 184, 197); }
-            table, th, td {
-                border: 1px solid black;
-                border-collapse: collapse;
-                border-color: #1b5332;
-            }
-            td {
-                padding-left: 10px;
-            }
-        </style>
-    </head>
+  <head>
+    <title>Demo Html</title>
+    <style>
+      body {
+        background-color: rgb(131, 184, 197);
+      }
 
-    <body style="padding-left: 15px; padding-right: 15px;">
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        border-color: #1b5332;
+      }
 
-        <p>First line is here & this is <b>bold</b> & <i>italic</i></p>
+      td {
+        padding-left: 10px;
+      }
 
-        <!-- Customized paragraph has began -->
+      .myDiv {
+        border: 1px outset lightgreen;
+        background-color: lightblue;
+        text-align: center;
+      }
+    </style>
+  </head>
 
-        <p>
-            Customized <sup>Superscripted</sup> Formate
-            How can <sub>subscripted</sub> i customized,<br> <br>sample is <mark>shown</mark> here</br>
-            Another <del>deleted</del> Line is <q>quoted</q> here with <strong>Strong</strong> string <br>
-            <bdo dir="rtl"> Reverse Order </bdo>
-        </p>
+  <body style="padding-left: 15px; padding-right: 15px">
+    <p>First line is here & this is <b>bold</b> & <i>italic</i></p>
 
-        <!-- Styling Image
-        asdfa 
-        -->
-        
-        <a href="https://appscode.com" target="_blank">
-            <img 
-                src="https://appscode.com/assets/images/products/appscode/appscode-1280x640.png"
-                alt="image not found"
-                style="background-color: rgb(121, 188, 163);
-                float: left;
-                width: 200px;
-                border-radius: 7px;
-                border:2px solid #5a9b75;
-                padding: 3px;
-                margin: 5px;"
-            >
-        </a>
-        
-        <br><br>
-        <a href="https://appscode.com" style="padding-left: 20px;">AppsCode</a>
+    <!-- Customized paragraph has began -->
 
+    <p>
+      Customized <sup>Superscripted</sup> Formate How can
+      <sub>subscripted</sub> i customized,<br />
+      <br />sample is <mark>shown</mark> here <br />
+      Another <del>deleted</del> Line is <q>quoted</q> here with
+      <strong>Strong</strong> string <br />
+      <bdo dir="rtl"> Reverse Order </bdo>
+    </p>
 
-        <table style="width:100%">
-            <caption style="font-style: italic; padding-bottom: 10px;"><b>Table - Rows - Coloumns</b></caption>
-            <tr>
-              <th rowspan="2">Firstname</th>
-              <th>Lastname</th> 
-              <th>Age</th>
-            </tr>
-            <tr>
-              <!-- <td>Jill</td> -->
-              <td colspan="2">Smith</td> 
-              <!-- <td>50</td> -->
-            </tr>
-            <tr>
-              <td>Eve</td>
-              <td>Jackson</td> 
-              <td>94</td>
-            </tr>
-            <tr>
-                <td>Eve</td>
-                <td><strong>Jackson*</strong></td> 
-                <td>84</td>
-              </tr>
-              <tr>
-                <td>Eve</td>
-                <td>Jackson</td> 
-                <td>43</td>
-              </tr>
-          </table>
-          <br>
-          
-          <table>
-            <thead>
-              <tr>
-                <th>Month</th>
-                <th>Savings</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>January</td>
+    <!-- Styling Image
+      asdfa 
+      -->
 
-                <td>$100</td>
-              </tr>
-              <tr>
-                <td>February</td>
-                <td>$80</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <td>Sum</td>
-                <td>$180</td>
-              </tr>
-            </tfoot>
-          </table>
-          <br>
+    <a href="https://appscode.com" target="_blank">
+      <img
+        src="https://appscode.com/assets/images/products/appscode/appscode-1280x640.png"
+        alt="image not found"
+        style="
+          background-color: rgb(121, 188, 163);
+          float: left;
+          width: 200px;
+          border-radius: 7px;
+          border: 2px solid #5a9b75;
+          padding: 3px;
+          margin: 5px;
+        "
+      />
+    </a>
 
-          <ul style="list-style-type:circle;">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Lunch</li>
-          </ul>
+    <br /><br />
+    <a href="https://appscode.com" style="padding-left: 20px">AppsCode</a>
 
-          <ol type="i">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Lunch</li>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Lunch</li>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Lunch</li>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Lunch</li>
-          </ol>
+    <table style="width: 100%">
+      <caption style="font-style: italic; padding-bottom: 10px">
+        <b>Table - Rows - Coloumns</b>
+      </caption>
+      <tr>
+        <th rowspan="2">Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <!-- <td>Jill</td> -->
+        <td colspan="2">Smith</td>
+        <!-- <td>50</td> -->
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td><strong>Jackson*</strong></td>
+        <td>84</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>43</td>
+      </tr>
+    </table>
+    <br />
 
-          <dl>
-            <dt>Coffee</dt>
-            <dd>- black hot drink</dd>
-            <dt>Milk</dt>
-            <dd>- white cold drink</dd>
-          </dl>
+    <table>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January</td>
 
-          
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br />
 
-          
-    </body>
+    <ul style="list-style-type: circle">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Lunch</li>
+    </ul>
+
+    <ol type="i">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Lunch</li>
+    </ol>
+
+    <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+
+    <div class="myDiv">
+      <h2>This is a heading in a div element</h2>
+      <p>This is some text in a div element.</p>
+    </div>
+  </body>
 </html>
